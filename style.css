@@ -1,0 +1,116 @@
+@import url("https://use.typekit.net/nes8kac.css");
+
+
+
+.header {
+    background-color: black;
+    color: white;
+    font-family: "caveat-brush", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    height: 75px;
+}
+
+.name{
+    margin-left: 10px;
+    font-size: 40px;
+}
+
+.links{
+    display: flex;
+    margin-right: 10px;
+}
+
+.link{
+    margin-left: 30px;
+    font-size: 40px;
+    transition: transform 0.3s ease, color 0.3s ease;
+    color: white;
+    text-decoration: none;
+
+}
+.link:hover{
+    color: gray;
+    transform: scale(1.12);
+}
+
+
+
+html{
+    background-color: #C7C7C7;
+}
+
+
+
+main{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.projectName{
+    font-family: "caveat-brush", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+.description{
+    font-family: "caveat-brush", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.blockVol{
+    background-color: #a8a8a8;
+    border: 1px solid #a8a8a8;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    pudding-top: 10px;
+    pudding-bottom: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#linkButton{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+#linkButton:hover{
+    color: gray;
+}
+#downloadButton{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+#downloadButton:hover{
+    color: gray;
+}
+
+
+
+footer{
+    font-family: "caveat-brush", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    padding-left: 30px;
+}
+.contacts{
+    font-size: 20px;
+}
+.contact{
+    font-size: 17px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+.contact:hover{
+    color: gray;
+}
