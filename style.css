@@ -114,3 +114,37 @@ footer{
 .contact:hover{
     color: gray;
 }
+
+
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        height: auto;
+        padding: 15px 10px;
+        gap: 10px;
+    }
+
+    .name {
+        margin-left: 0;
+        font-size: 32px;
+    }
+
+    .links {
+        margin-right: 0;
+        gap: 20px;
+    }
+
+    .link {
+        margin-left: 0;
+        font-size: 28px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
